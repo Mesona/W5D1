@@ -1,0 +1,70 @@
+Started GET "/" for ::1 at 2019-02-04 11:39:01 -0800
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/var/rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.1/lib/active_record/railtie.rb:113)
+
+Gem::LoadError - can't activate sqlite3 (~> 1.3.6), already activated sqlite3-1.4.0. Make sure all dependencies are added to Gemfile.:
+
+Started POST "/__better_errors/0d0ffc5f5fd0cbce/variables" for ::1 at 2019-02-04 11:39:01 -0800
+Started GET "/" for ::1 at 2019-02-04 11:40:16 -0800
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/var/rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.1/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 792ms (Views: 789.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1" for ::1 at 2019-02-04 11:40:17 -0800
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2019-02-04 11:40:17 -0800
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2019-02-04 11:40:17 -0800
+Started GET "/assets/components/dropdown.self-815016af6fab1d5b72abd319213bf62f0c42bab2c585d2e059543ae704a0d74c.js?body=1" for ::1 at 2019-02-04 11:40:17 -0800
+Started GET "/assets/components/sidebar.self-2a1277f850a6fa21e1a974ef5152f177ac05516477d5081d593bb137b3d6808b.js?body=1" for ::1 at 2019-02-04 11:40:17 -0800
+Started GET "/assets/components/modal.self-52188644dbb47def5ee35ae02e69eb567ca9b664472357a8a5789dd39032a265.js?body=1" for ::1 at 2019-02-04 11:40:17 -0800
+Started GET "/assets/application.self-f571b9db02bf4ed04c38a6a29072ac382f7d4f47db1fab9817aeadb0d8665235.js?body=1" for ::1 at 2019-02-04 11:40:17 -0800
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1&livereload=1549309738693" for ::1 at 2019-02-04 11:48:58 -0800
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1&livereload=1549309738695" for ::1 at 2019-02-04 11:48:58 -0800
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1&livereload=1549309744673" for ::1 at 2019-02-04 11:49:04 -0800
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1&livereload=1549309744674" for ::1 at 2019-02-04 11:49:04 -0800
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1&livereload=1549309767950" for ::1 at 2019-02-04 11:49:27 -0800
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1&livereload=1549309767951" for ::1 at 2019-02-04 11:49:27 -0800
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1&livereload=1549309812176" for ::1 at 2019-02-04 11:50:12 -0800
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1&livereload=1549309812178" for ::1 at 2019-02-04 11:50:12 -0800
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1&livereload=1549309969204" for ::1 at 2019-02-04 11:52:49 -0800
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1&livereload=1549309969205" for ::1 at 2019-02-04 11:52:49 -0800
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1&livereload=1549310067760" for ::1 at 2019-02-04 11:54:27 -0800
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1&livereload=1549310067764" for ::1 at 2019-02-04 11:54:27 -0800
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1&livereload=1549310112093" for ::1 at 2019-02-04 11:55:12 -0800
+Started GET "/assets/application.self-f2e769905141f7974c4be9944817c778ef99fd37092a1ea51d85b0f70f058093.css?body=1&livereload=1549310112094" for ::1 at 2019-02-04 11:55:12 -0800
+Started GET "/" for ::1 at 2019-02-04 11:55:43 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.9ms)
+Completed 500 Internal Server Error in 131ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$serif".:
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2414992938745803339_70315367204460'
+
+Started POST "/__better_errors/fbdfbca8d2c4cfb7/variables" for ::1 at 2019-02-04 11:55:43 -0800
+Started GET "/" for ::1 at 2019-02-04 11:56:01 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.6ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 192ms (Views: 188.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6983aebba899bd895dcd9774074b87f6b9b4f4dc8d1ac7aa1a48df7c6c83a2dc.css?body=1" for ::1 at 2019-02-04 11:56:01 -0800
