@@ -37,6 +37,21 @@ a:hover {
 	text-decoration: underline;
 }
 
+#gear-dropdown-btn {
+	visibility: visible;
+}
+
+#gear-dropdown {
+	visibility: visible;
+	position: absolute;
+}
+
+#gear-dropdown.hidden {
+	visibility: hidden;
+	position: absolute;
+}
+
+
 /*
 	Header Rules
 */
