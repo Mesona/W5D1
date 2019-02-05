@@ -1,14 +1,14 @@
 .main-nav {
   display: flex;
   padding: 10px; 
-    justify-content: space-between;
+  justify-content: space-between;
 
 }
 
 .left-nav > ul,
 .right-nav > ul {
   display: flex;
-
+  align-items: center;
 }
 
 .left-nav > ul > li {
@@ -45,4 +45,5 @@
 
 .right-nav i {
   font-size: 20px;
+
 }
